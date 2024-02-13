@@ -7,9 +7,9 @@
         <link href="css/style.css" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="bg-violet-800  flex flex-col  justify-center my-14 font-mono items-center  " >
+    <body class="bg-violet-800  flex flex-col w-full p-4 justify-center my-14 font-mono items-center  " >
 
-       <div class="bg-white  flex flex-col justify-center p-4 items-center w-[50%] max-[802px]:w-[80%] max-[330px]:w-[100%] my-2 my-8 rounded-md">
+       <div class="bg-white  flex flex-col w-full justify-center p-4 items-center max-w-4xl mx-auto  my-2 my-8 rounded-md">
         
             <h1 class="font-bold text-lg">Consulta de Cep</h1>
 
@@ -37,30 +37,30 @@
        </div>
 
        
-        <div id="resultado" class=" hidden bg-white  flex flex-col justify-start p-4 items-start w-[50%] max-[900px]:w-[80%] max-[330px]:w-[100%] rounded-md">
-            <div class="flex flex-row items-center">
+        <div id="resultado" class=" hidden bg-white w-full flex flex-col justify-start p-4 items-start max-w-4xl mx-auto rounded-md">
+            <div class="flex flex-col md:space-x-1  md:flex-row ">
                 <h3>Estado:</h3>
-                <p class="mx-2" id="stado"></p>
+                <p id="stado"></p>
             </div>
 
-            <div class="flex flex-row items-center">
+            <div class="flex flex-col md:space-x-1 md:flex-row ">
                 <h3>Cidade:</h3>
-                <p class="mx-2" id="cidade"></p>
+                <p id="cidade"></p>
             </div>
 
-            <div class="flex flex-row items-center">
+            <div class="flex flex-col md:space-x-1 md:flex-row ">
                 <h3>Bairro:</h3>
-                <p class="mx-2" id="bairro"></p>
+                <p id="bairro"></p>
             </div>
 
-            <div class="flex flex-row items-center">
+            <div class="flex flex-col md:space-x-1 md:flex-row ">
                 <h3>Endereço:</h3>
-                <p class="mx-2" id="endereco"></p>
+                <p id="endereco"></p>
             </div>
 
-            <div class="flex flex-row items-center">
+            <div class="flex flex-col md:space-x-1 md:flex-row ">
                 <h3>Cep:</h3>
-                <p class="mx-2" id="cep"></p>
+                <p id="cep"></p>
             </div>
 
         </div>
